@@ -1,41 +1,42 @@
-Weather App using OpenWeatherMap API
+# Weather App – Python CLI
 
-A simple Python program that fetches and displays current weather information for a given city using the OpenWeatherMap API
+A simple Python command-line application that fetches and displays real-time weather data for any city using the OpenWeatherMap API.
 
-Features
+---
 
-Get current temperature in Celsius
+## Features
 
-Display humidity and atmospheric pressure
+- Retrieves current temperature in Celsius
+- Shows humidity and atmospheric pressure
+- Displays weather descriptions (e.g., clear sky, rain)
+- Simple and intuitive command-line interface
+- Graceful error handling for invalid city names and API keys
 
-Show weather description such as clear sky or rain
+---
 
-Simple command-line interface
+## Prerequisites
 
-Prerequisites
+- Python 3.x installed on your system
+- Access to a command line or terminal
+- An API key from [OpenWeatherMap](https://openweathermap.org/api)
+- `requests` Python library
 
-Python 3.x installed
+---
+## Getting an OpenWeatherMap API Key
 
-requests library
+1. Visit the [OpenWeatherMap signup page](https://home.openweathermap.org/users/sign_up).
+2. Create a free account by filling in your details.
+3. Once logged in, navigate to the **API keys** section in your profile.
+4. Copy your default API key or generate a new one.
+5. Use this API key in your Python script by replacing the placeholder value.
 
-Install the required library using: pip install requests
+---
+## How to Clone
 
-Setup
+Clone this repository:
+   ```bash
+   git clone https://github.com/cypher0414/weather-app.git
+  
 
-Clone this repository
 
-Get a free API key from OpenWeatherMap
 
-Replace the api_key value in the script with your API key
-
-Usage
-
-Run the program and enter the city name when prompted. For example, enter London. The program will display the city, temperature, humidity, pressure, and weather description
-
-Error Handling
-
-If the city is not found or the API key is invalid, the program will display an error message such as City Not Found or Invalid API Key
-
-Author
-SHAILESH ARUNKUMAR
-GitHub Profile https://github.com/cypher0414
