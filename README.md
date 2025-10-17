@@ -30,12 +30,7 @@ A simple Python command-line application that fetches and displays real-time wea
 4. Copy your default API key or generate a new one.
 5. Use this API key in your Python script by replacing the placeholder value.
 
----
-## How to Clone
 
-Clone this repository:
-   ```bash
-   git clone https://github.com/cypher0414/weather-app.git
   
 
 
